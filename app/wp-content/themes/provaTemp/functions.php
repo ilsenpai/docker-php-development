@@ -36,3 +36,4 @@ function provaTemp_scripts() {
 
 }
 
+add_action( 'wp_enqueue_scripts', 'provaTemp_scripts' );
