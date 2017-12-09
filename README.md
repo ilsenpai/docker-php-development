@@ -1,1 +1,1 @@
-# docker-wordpress
+# Docker for php web applications
