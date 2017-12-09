@@ -7,17 +7,17 @@ function titolo() {
 function provaTemp_scripts() {
 	// Add custom fonts, used in the main stylesheet.
 
-	wp_enqueue_style( 'bootstrap', '/wp-content/themes/provaTemp/css/bootstrap.min.css', array(), null );
+	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), null );
 
-	wp_enqueue_style( 'animate', '/wp-content/themes/provaTemp/css/animate.css', array(), null );
+	wp_enqueue_style( 'animate', get_template_directory_uri() . '/css/animate.css', array(), null );
 
-	wp_enqueue_style( 'font-awesome', '/wp-content/themes/provaTemp/css/font-awesome.css', array(), null );
+	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome.css', array(), null );
 
-	wp_enqueue_style( 'owl.theme', '/wp-content/themes/provaTemp/css/owl.theme.css', array(), null );
+	wp_enqueue_style( 'owl.theme', get_template_directory_uri() . '/css/owl.theme.css', array(), null );
 
-	wp_enqueue_style( 'owl.carousel', '/wp-content/themes/provaTemp/css/owl.carousel.css', array(), null );
+	wp_enqueue_style( 'owl.carousel', get_template_directory_uri() . '/css/owl.carousel.css', array(), null );
 
-	wp_enqueue_style( 'style', '/wp-content/themes/provaTemp/css/style.css', array(), null );
+	wp_enqueue_style( 'style', get_template_directory_uri() . '/css/style.css', array(), null );
 
 
 	wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery.js', array(), '20141010', true );
